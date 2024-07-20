@@ -26,7 +26,7 @@ InstructCMP
 
 
 # Evaluation
-The metrics used in this work are listed in [evaluation_metrics](https://github.com/vis-nlp/Chart-to-text/tree/main/evaluation_metrics). For each metric, we have steps.txt which presents the steps to setup and run the metric.
+The metrics used in this work are listed in [evaluation_metrics](https://github.com/JuseonDo/InstructCMP/evaluation). For each metric, we have steps.txt which presents the steps to setup and run the metric.
 # Contact
 If you have any questions about this work, please contact **Juseon-Do** using the following email addresses: **dojuseon@gmail.com** or **doju00@naver.com**. 
 
