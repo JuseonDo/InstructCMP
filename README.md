@@ -8,17 +8,32 @@
 Dataset folder has the following structure:
 ```
 InstructCMP
-├── dataset folder                  
+├── dataset folder
 │   ├── Google
-│   │   ├──google_test.json
-│   │   ├──google_valid.json
-│   │   └──google_train.json
+│   │   ├──google_test.jsonl
+│   │   ├──google_valid.jsonl
+│   │   └──google_train.jsonl
+|   |
 │   ├── Broadcast
-│   │   └──broadcast_test.json
+│   │   └──broadcast_test.jsonl
+|   |
 │   ├── BNC
-│   │   └──bnc_test.json
+│   │   └──bnc_test.jsonl
+|   |
 │   └── DUC2004
-│       └──duc2004_test.json
+│       └──duc2004_test.jsonl
+|
+├── src
+│   ├── evaluate_utils
+│   │   evaluate_functions.py
+|   |
+│   ├── inference_utils
+│   │   └──functions.py
+|   |
+│   └── utils
+|      └──templates.py
+|
+└── run.py
 ```
 
 ## Models
